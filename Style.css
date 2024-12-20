@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #2f092a;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url('11.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.nav-search
+{
+    display : flex;
+    justify-content: space-evenly;
+    background-color: rgb(92, 234, 107);
+    width: 620PX;
+    height: 40PX;
+    border-radius: 4px;
+
+}
+.search-select
+{
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #e65c2a6a;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+.nav-search:hover{
+    border:2px solid rgb(181, 158, 116);
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color:white;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.home{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+.bg-img{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-image: url('home.jpg');
+    background-size: cover;
+    color: black;
+    align-items: center;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}/*
+.text-container {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    color: white;
+  }
+
+  .text-container h1 {
+    font-size: 64px;
+    font-weight: bold;
+    background-color: #262929;
+    margin: 0;
+  }
+
+  .text-container p {
+    font-size: 32px;
+    background-color: #262929;
+    margin: 10px 0 0;
+  }
+*/
+
+.solar-panel-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    background-color: #92c6c6;
+    border-radius: 8px;
+}
+.solar-panel-block{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(251, 245, 245);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px
+}
+.solar-panel-block:hover{
+    border: 5px solid rgb(178, 237, 235);
+}
+
+.message-box{
+    background-image: url('o.jpg');
+  
+    background-size: cover;
+    color: black;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.contact-section{
+    background-image: url('4.jpg');
+    background-size: cover;
+    color: black;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact p {
+    font-size: 18px;
+}
+footer {
+    background-color: #3e463e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/*About section css*/
+.about{
+    background-image: url('9.jpg');
+    background-size: cover;
+    position: relative;
+    height: 800px; 
+} 
+.about-text{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    justify-items: left;
+    font-size: 30px;
+    color: #262929;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*contact Section css*/
+.contact{
+    background-image: url('con.jpg');
+    background-size: cover;
+    position: relative;
+    height: 500px; 
+}
+.contact-text{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-size: 40px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*CSS for services html*/
+.services-panel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    background-color: #7c8b7a;
+    border-radius: 8px;
+}
+.services-panel-block{
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(103, 125, 113);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px
+}
+.services-panel-block:hover{
+    border: 5px solid rgb(91, 196, 90);
+}
+/* CSS for Solar html*/
+.solar-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    background-color: #92c6c6;
+    border-radius: 8px;
+}
+.solar-info-text{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-size: 40px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
